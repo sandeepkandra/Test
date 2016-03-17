@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    tools:context="com.nanite.recycleviewtry.ConsumerUi">
+
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:id="@+id/imageView"
+        android:src="@drawable/coffesimg"
+        android:layout_marginTop="5dp"
+
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Address"
+        android:layout_marginLeft="10dp"
+        android:padding="5dp"
+        android:id="@+id/textViewAddress"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="5dp" />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@+id/textViewAddress"
+    android:layout_marginLeft="130dp"
+android:layout_marginTop="15dp"
+    android:orientation="horizontal"
+    android:id="@+id/linearLayout">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Id"
+        android:padding="5dp"
+
+        android:background="@drawable/editbackroundlite"
+
+        android:id="@+id/textView2"
+     />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Order Id"
+        android:padding="5dp"
+        android:background="@drawable/editbackroundlite"
+        android:layout_marginLeft="5dp"
+
+        android:id="@+id/txtVwToken"
+        />
+
+
+
+</LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Token"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:textSize="20dp"
+        android:layout_marginTop="10dp"
+        android:id="@+id/textView"
+        android:background="@drawable/editbackroundlite"
+        android:layout_below="@+id/linearLayout"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_below="@+id/textView">
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView2"
+        android:src="@drawable/fordelivery"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView3"
+android:layout_marginTop="20dp"
+        android:src="@drawable/cooking"
+        android:layout_below="@+id/imageView2"
+        android:layout_toLeftOf="@+id/textView3"
+        android:layout_toStartOf="@+id/textView3" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:text="22"
+        android:layout_marginTop="-20dp"
+        android:gravity="center"
+        android:textSize="50sp"
+        android:id="@+id/textView3"
+        android:background="@drawable/seekbar_style"
+        android:layout_alignTop="@+id/imageView3"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="20dp"
+        android:id="@+id/imageView4"
+        android:src="@drawable/readyforpickup"
+        android:layout_below="@+id/imageView2"
+        android:layout_toRightOf="@+id/textView3"
+        android:layout_toEndOf="@+id/textView3" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:id="@+id/imageView5"
+        android:src="@drawable/cooking"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>
+</RelativeLayout>

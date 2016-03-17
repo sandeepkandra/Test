@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:padding="10dp"
+    android:id="@+id/parentTokens"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="5dp"
+
+    >
+
+    <TextView
+        android:id="@+id/txtVwTokenNoHori"
+
+        android:layout_height="wrap_content"
+        android:background="@drawable/background_white"
+        android:padding="5dp"
+        style="@style/textsizetab"
+        android:text="Order: 18000"
+        />
+
+    <TextView
+        android:id="@+id/txtVwTokenIdHori"
+
+        android:layout_height="wrap_content"
+        style="@style/textsizetab"
+        android:text="Token: 2"
+        android:background="@drawable/background_white"
+        android:padding="5dp"
+        android:textSize="18sp"
+        />
+</LinearLayout>
